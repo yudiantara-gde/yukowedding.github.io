@@ -1,0 +1,745 @@
+@import "source/source.less";
+
+//set all fonts 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+@font-face {
+  	font-family: 'FontAwesome';
+  	src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+  	font-family: 'BrandonGrotesque-Bold';
+  	src: url('../fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),  
+  		 url('../fonts/BrandonGrotesque-Bold.otf')  format('opentype'),
+	     url('../fonts/BrandonGrotesque-Bold.woff') format('woff'), 
+	     url('../fonts/BrandonGrotesque-Bold.ttf')  format('truetype'), 
+	     url('../fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+    font-family: 'freightitalic';
+    src: url('../fonts/freight_disp_book_italic-webfont.woff2') format('woff2'),
+         url('../fonts/freight_disp_book_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'freightregular';
+    src: url('../fonts/freight_disp_medium_sc-webfont.woff2') format('woff2'),
+         url('../fonts/freight_disp_medium_sc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'freightbold';
+    src: url('../fonts/freight_disp_bold-webfont.woff2') format('woff2'),
+         url('../fonts/freight_disp_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.roboto(@size:12px, @weight:400){
+	font-family: 'Roboto', sans-serif;
+  	font-size: @size;
+  	font-weight: @weight;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.lato(@size:12px, @weight:400){
+	font-family: 'Lato', sans-serif;
+  	font-size: @size;
+  	font-weight: @weight;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.bradon-bold(@size:12px){
+	font-family: 'BrandonGrotesque-Bold', sans-serif;
+  	font-size: @size;
+  	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.freight-italic(@size:12px){
+	font-family: 'freightitalic', sans-serif;
+  	font-size: @size;
+  	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.freight-regular(@size:12px){
+	font-family: 'freightregular', sans-serif;
+  	font-size: @size;
+  	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.freight-bold(@size:12px){
+	font-family: 'freightbold', sans-serif;
+  	font-size: @size;
+  	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.font-awesome(@size:12px){
+	font-family: 'FontAwesome';
+  	font-size: @size;
+  	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	outline: 0;
+	text-decoration: none;
+
+	&:focus {
+		outline: 0;
+		border: 0;
+	}
+
+	&:hover {
+		-webkit-transition: all .5s;
+	    -moz-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s; 
+	}
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.animatedLong {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+ -webkit-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+   -moz-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+     -o-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+        transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+
+-webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+   -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+     -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+        transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 54px, 0);
+            transform: translate3d(0, 54px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+            transform: translate3d(0, 2000px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.textClamps(@height, @line) {
+
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	max-height: @height;
+  	display: -webkit-box;
+	-webkit-line-clamp: @line;
+	-webkit-box-orient: vertical;
+}
+
+.notextClamps() {
+  	overflow: initial;
+    display: block;
+    -webkit-line-clamp: initial;
+    -webkit-box-orient: initial;
+    text-overflow: initial;
+    max-height: 100%;
+}
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+.background-clip(@argument: padding-box) {
+    -moz-background-clip: @argument;
+    -webkit-background-clip: @argument;
+  	background-clip: @argument;
+}
+
+.set-border-radius(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+	-webkit-border-top-right-radius: @topright;
+	-webkit-border-bottom-right-radius: @bottomright;
+	-webkit-border-bottom-left-radius: @bottomleft;
+	-webkit-border-top-left-radius: @topleft;
+	-moz-border-radius-topright: @topright;
+	-moz-border-radius-bottomright: @bottomright;
+	-moz-border-radius-bottomleft: @bottomleft;
+	-moz-border-radius-topleft: @topleft;
+	border-top-right-radius: @topright;
+	border-bottom-right-radius: @bottomright;
+	border-bottom-left-radius: @bottomleft;
+	border-top-left-radius: @topleft;
+	.background-clip(padding-box);
+}
+
+.absolute {position: absolute;}
+.relative {position: relative;}
+.fixed {position: fixed;}
+.block {display: block;}
+.none {display: none;}
+.inline {display: inline-block;}
+
+.dFlex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flex(@justify, @align ) {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: @justify;
+	-ms-flex-pack: @justify;
+	-webkit-justify-content: @justify;
+	justify-content: @justify;
+	-webkit-box-align: @align;
+	-ms-flex-align: @align;
+	-webkit-align-items: @align;
+	align-items: @align;
+}
+
+.absolute-center(@left, @top) {
+	-ms-transform: translate(@left, @top);
+    -webkit-transform: translate(@left, @top);
+    transform: translate(@left, @top);
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	height: 100%;
+	.block;
+	background: #ffffff;
+	border: 0;
+	box-shadow: none;
+	.border-radius(5px);
+	.lato(14px, 400);
+	border: 1px solid #d8d8d8;
+	line-height: 40px;
+	color: @soft-black;
+	padding: 0 15px;
+	letter-spacing: 1px;
+
+	&:focus {outline: none;}
+
+	@media (min-width: @screen-xl-min) {
+		font-size: 16px; line-height: 50px;
+	}
+
+	&::-webkit-input-placeholder {
+		
+		.lato(14px, 400);
+		line-height: 40px;
+		color: #464646;
+		letter-spacing: 1px;
+
+		@media (min-width: @screen-xl-min) {
+			font-size: 16px; line-height: 50px;
+		}
+	}
+
+	&::-moz-placeholder {
+		
+		.lato(14px, 400);
+		line-height: 40px;
+		color: #464646;
+		letter-spacing: 1px;
+
+		@media (min-width: @screen-xl-min) {
+			font-size: 16px; line-height: 50px;
+		}
+	}
+
+	&:-ms-input-placeholder {
+		
+		.lato(14px, 400);
+		line-height: 40px;
+		color: #464646;
+		letter-spacing: 1px;
+
+		@media (min-width: @screen-xl-min) {
+			font-size: 16px; line-height: 50px;
+		}
+	}
+	
+	&:-moz-placeholder {
+
+	  	.lato(14px, 400);
+		line-height: 40px;
+		color: #464646;
+		letter-spacing: 1px;
+
+		@media (min-width: @screen-xl-min) {
+			font-size: 16px; line-height: 50px;
+		}
+	}
+}
+
+.selectric-wrapper {
+	.inline;
+	.relative;
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+
+	.selectric {
+
+		span.label {
+			.roboto(14px, 400);
+			line-height: 40px;
+			letter-spacing: 1px;
+			text-transform: none;
+			color: @soft-black;
+			width: 100%;
+			height: 40px;
+			padding: 0 40px 0 10px;
+			margin: 0;
+			background: #ffffff;
+			.border-radius(5px);
+			border: 1px solid #d8d8d8;
+			letter-spacing: 1px;
+			.clearfix;
+			.relative;
+
+			@media (min-width: @screen-xl-min) {
+				font-size: 16px; 
+				line-height: 50px; 
+				height: 50px;
+				padding: 0 50px 0 15px;
+			}
+
+			&:after {
+				position: absolute;
+	            top: 0;
+	            right: 0px;
+	            width: 40px;
+	            height: 40px;
+	            background: @soft-blue;
+	            border-top-right-radius: 5px;
+	            border-bottom-right-radius: 5px;
+	            border: 1px solid @soft-blue;
+
+	            @media (min-width: @screen-xl-min) {width: 50px; height: 50px;}
+			}
+		}
+
+		.button {
+			.absolute;
+			right: 0;
+			
+			&:after {
+				.absolute;
+				top: 50%;
+				left: 50%;
+				font: normal normal normal 14px/1 FontAwesome;
+	            font-size: 30px;
+	            line-height: 30px;
+	            margin-top: -20px;
+	            margin-left: -30px;
+	            text-rendering: auto;
+	            -webkit-font-smoothing: antialiased;
+	            -moz-osx-font-smoothing: grayscale;
+	            content: "\f107";
+	            color: #ffffff;
+
+	            @media (min-width: @screen-xl-min) {margin-left: -40px;}
+	        }
+		}
+	}
+
+	.selectric-items {
+		background: #ffffff;
+		border: 1px solid #d8d8d8;
+		border-top: 0;
+		box-shadow: none;
+		width: 100% !important;
+		.border-radius(5px);
+		top: 40px;
+
+		@media (min-width: @screen-xl-min) {top: 50px;}
+
+		.selectric-scroll {
+
+			ul {
+
+				li {
+
+					background: none;
+					color: #ffffff;
+					.lato(14px, 400);
+					line-height: 30px;
+					letter-spacing: 1px;
+					text-transform: none;
+					color: @soft-black;
+					border: 0;
+					padding: 0 15px;
+					letter-spacing: 1px;
+
+					@media (min-width: @screen-xl-min) {font-size: 15px;}
+				}
+			}
+		}
+	}
+}
+
+//set all variabel color
+@white: #ffffff;
+@soft-blue: #01b7f2;
+@yellow: #fdb714;
+@pink: #F56961;
+@black: #000000;
+@soft-black: #333333;
+@ungu: #800080;
+@orange: ;
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+	background: #fff;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#overlay {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #fff;
+    opacity: 0;
+}
+
+#status {
+	background-image: url('../img/preloader.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+
+body {
+	.relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background: @white;
+	.lato(14px, 400);
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: @soft-black;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0px;
+	z-index: 2;
+	background: transparent;
+}
+
+header#header {
+	width: 100%;
+	height: auto;
+	z-index: 15;
+	padding: 0;
+
+	&.absolute {
+		.absolute;
+		.block;
+		top: 0;
+		left: 0;
+		z-index: 15;
+		background: transparent;
+	}
+
+	&.relative {
+		.relative;
+		background: transparent;
+	}
+
+	&.fixed {
+		.fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 40px;
+		padding: 5px 0;
+		background: @white;
+	}
+
+	.container-fluid {
+		.relative;
+		height: 100%;
+		background: @white;
+
+		nav {
+			float: right;
+			width: auto;
+			height: auto;
+
+			ul.sf-menu {
+				padding: 0;
+				margin: 0;
+				.clearfix;
+
+				li {
+					background: transparent;
+					border: 0;
+
+					a {
+						border: 0;
+						color: @white;
+						.lato(20px, 700);
+						line-height: 20px;
+						letter-spacing: 1px;
+						text-transform: uppercase;
+						padding: 15px 30px;
+						text-decoration: none;
+
+						i.fa {margin-right: 10px;}
+
+						@media (min-width: @screen-xl-min) {
+							font-size: 25px;
+							line-height: 25px;
+							padding: 20px 30px;
+						}
+
+						&:hover {
+							.transition(background .30s linear);
+							background: rgba(1, 183, 242, 0.7);
+						}
+					}
+
+					&.active {
+
+						a {
+							background: rgba(1, 183, 242, 0.7);
+						}
+					}
+				}
+			}
+		}
+
+		.nav-wrapper {
+			.relative;
+			width: 100%;
+			height: auto;
+			margin-top: 30px;
+			margin-bottom: 15px;
+
+			ul.nav {
+				.relative;
+				width: 100%;
+				height: auto;
+				text-align: center;
+				margin: 0;
+				padding: 0;
+
+				li {
+					.inline;
+					.relative;
+					width: auto;
+					height: 40px;
+					background: @white;
+					.set-border-radius(5px, 5px, 5px, 5px);
+					text-align: center;
+
+					a {
+						.block;
+						padding: 0 15px;
+						.roboto(16px, 500);
+						line-height: 40px;
+						letter-spacing: 2px;
+						color: #333333;
+						outline: none;
+						text-decoration: none;
+						text-transform: uppercase;
+
+						i.fa {
+							font-size: 20px;
+							line-height: 40px;
+							margin-right: 5px;
+							color: #333333;
+						}
+					}
+				}
+			}
+		}
+
+		.logo {
+			.absolute;
+			.block;
+			top: 3px;
+			left: 15px;
+			width: 217px;
+			height: 25px;
+
+			a {
+				.block;
+				width: 100%;
+				height: 100%;
+				outline: none;
+				text-decoration: none;
+				border: 0;
+				color: transparent;
+				background: url('../img/logo.png') no-repeat;
+				background-size: 100% 100%;
+			}
+		}
+
+		.nav {
+			.relative;
+			width: 100;
+			height: 100%;
+			padding-left: 217px;
+			.clearfix;
+
+			#navPanelToggle {
+				float: right;
+				.relative;
+				width: 22px;
+				height: 100%;
+				color: transparent;
+				border: 0;
+				outline: none;
+				line-height: 30px;
+				.clearfix;
+
+				&:before {
+					.font-awesome(25px);
+					line-height: 30px;
+					content: '\f0c9';
+					margin-right: 0;
+					color: #212931;
+					.inline;
+				}
+			}
+		}	
+	}
+
+	@media (min-width: @screen-xs-min) {
+		
+	}
+
+	@media (min-width: @screen-sm-min) {
+		
+	}
+
+	@media (min-width: @screen-md-min) {
+		
+	}
+
+	@media (min-width: @screen-lg-min) {
+		
+	}
+}
+
+.wrapper-body {
+	.relative;
+	width: 100%;
+	height: auto;
+
+	@import "page/home.less";
+}

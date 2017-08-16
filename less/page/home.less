@@ -1,0 +1,282 @@
+.heroes {
+	.relative;
+	.block;
+	width: 100%;
+	perspective: 1px;
+  	height: 100vh;
+  	overflow: hidden;
+
+	.wrapper-heroes {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url('../img/banner-mobile.jpg') no-repeat;
+		background-size: cover;
+		background-position: top center;
+		background-attachment: fixed;
+	}
+}
+
+.our-story {
+	.relative;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+
+	p {
+		.block;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		.bradon-bold(18px);
+		letter-spacing: 4px;
+		color: #111111;
+		line-height: 30px;
+		margin: 0 0 30px 0;
+		text-transform: uppercase;
+	}
+
+	.mobile-image {
+		.relative;
+		.block;
+		width: 100%;
+		height: auto;
+
+		.container-fluid {
+
+			.row {
+
+				.box-image {
+					float: left;
+					width: 100%;
+					height: auto;
+					padding: 0 15px;
+					.none;
+
+					&:first-of-type {
+						.block;
+					}
+
+					img {
+						width: 100%;
+						height: auto;
+						object-fit: cover;
+						.block;
+					}
+				}
+			}
+		}
+	}
+
+	.container-fluid {
+
+		.story {
+			.relative;
+			width: 100%;
+			height: auto;
+			margin-top: 30px;
+
+			.title {
+				.relative;
+				width: 100%;
+				height: auto;
+				text-align: center;
+				margin-bottom: 30px;
+
+				h2 {
+					margin: 0;
+					text-align: center;
+					.freight-bold(35px);
+					color: #111111;
+					line-height: 35px;
+					letter-spacing: 2px;
+					text-transform: none;
+				}
+			}
+
+			.row {
+
+				.content-story {
+					float: left;
+					width: 100%;
+					height: auto;
+					padding: 0 15px;
+					margin-bottom: 10px;
+
+					p {
+						.lato(14px, 400);
+						line-height: 24px;
+						letter-spacing: 1px;
+						text-align: justify;
+						text-transform: none;
+						color: @soft-black;
+						margin: 0 0 0 0;
+					}
+				}
+			}
+		}
+
+		.story-slider {
+			.relative;
+			width: 100%;
+			height: 350px;
+			margin-top: 40px;
+
+			.wrapper-story {
+				.relative;
+				height: 100%;
+
+				.owl-stage-outer {
+					.relative;
+					height: 100%;
+
+					.owl-stage {
+						.relative;
+						height: 100%;
+
+						.owl-item  {
+							.relative;
+							height: 100%;
+				
+							.list-story {
+								.relative;
+								height: 100%;
+
+								.box-story {
+									.relative;
+									width: 100%;
+									height: 100%;
+
+									p {
+										.relative;
+										width: 100%;
+										height: auto;
+										color: @soft-black;
+										.lato(14px, 400);
+										line-height: 24px;
+										letter-spacing: 1px;
+										margin: 0;
+										text-transform: none;
+
+										b {
+											.freight-bold(18px);
+											text-transform: uppercase;
+											color: #111111;
+											letter-spacing: 2px;
+										}
+									}
+
+									.box-line {
+										.absolute;
+										left: 0;
+										width: 100%;
+										height: 100px;
+
+										.wrapper-line {
+											.relative;
+											width: 100%;
+											height: 100%;
+											.flex(center, center);
+											.clearfix;
+
+											.line {
+												.relative;
+												.block;
+												width: 2px;
+												height: 100%;
+												background: @soft-black;
+											}
+
+											&:before {
+												.absolute;
+												.none;
+												top: -30px;
+												left: 50%;
+												width: 30px;
+												height: 30px;
+												margin-left: -15px;
+												background: @soft-black;
+												-webkit-transform: rotate(45deg);
+            									transform: rotate(45deg);
+            									.set-border-radius(5px, 5px, 5px, 5px);
+											}
+
+											&:after {
+												.absolute;
+												.none;
+												bottom: -30px;
+												left: 50%;
+												width: 30px;
+												height: 30px;
+												margin-left: -15px;
+												background: @soft-black;
+												-webkit-transform: rotate(45deg);
+            									transform: rotate(45deg);
+            									.set-border-radius(5px, 5px, 5px, 5px);
+											}
+										}
+									}										
+								}									
+
+								&.men {
+									padding-bottom: 175px;
+									
+									.box-story {
+										padding-bottom: 100px;
+										.flex(center, flex-end);
+										flex-wrap: wrap;
+
+										.box-line {
+											bottom: 0;
+											padding-top: 50px;
+											
+											.wrapper-line {
+
+												&:before {.block;}
+												&:after {.none;}
+											}
+										}
+									}									
+								}	
+
+								&.girl {
+									padding-top: 175px;
+									
+									.box-story {
+										padding-top: 100px;
+										.flex(center, flex-start);
+										flex-wrap: wrap;
+
+										.box-line {
+											top: 0;
+											padding-bottom: 50px;
+
+											.wrapper-line {
+
+												&:before {.none;}
+												&:after {.block;}
+											}
+										}
+									}									
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.line-story {
+				.absolute;
+				.block;
+				top: 50%;
+				left: 0;
+				width: 100%;
+				height: 2px;
+				margin-top: -2px;
+				background: @soft-black;
+			}
+		}
+	}
+}
