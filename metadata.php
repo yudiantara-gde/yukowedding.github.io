@@ -5,6 +5,7 @@
 <title>yudi & oko wedding</title>
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.css">
 <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
 <script type="text/javascript" scr="js/modernizr.custom.js"></script>
@@ -12,5 +13,6 @@
 <script type="text/javascript" src="js/jquery.throttle-debounce.min.js"></script>
 <script type="text/javascript" src="js/ScrollMagic.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
 <script type="text/javascript" src="js/wikan.js"></script>
 <script type="text/javascript" src="js/live.js"></script>

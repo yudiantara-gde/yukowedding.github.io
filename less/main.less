@@ -124,6 +124,23 @@ a {
 	}
 }
 
+img {
+
+	-moz-transition: -moz-transform 0.2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s ease-out;
+	-ms-transition: -ms-transform 0.2s ease-out;
+	transition: transform 0.2s ease-out;
+
+	&:hover {
+
+		-moz-transform: scale(1.09);
+		-webkit-transform: scale(1.09);
+		-ms-transform: scale(1.09);
+		transform: scale(1.09);
+		cursor: pointer;
+	}
+}
+
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;

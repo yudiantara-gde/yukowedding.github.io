@@ -14,8 +14,96 @@
 
 			<div class="wrapper-body">
 				<section class="heroes">
-					<div class="wrapper-heroes">
-						<!-- <img src="img/big-banner-desktop.jpg"> -->
+					<!-- non slider -->
+					<!--
+						<div class="wrapper-heroes"></div>
+					-->
+
+					<div class="heroes-slider swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/slider-1-desktop.jpg" class="img desktop">
+								<img src="img/slider-1-mobile.jpg" class="img mobile">
+							</div>
+
+							<div class="swiper-slide">
+								<img src="img/slider-2-desktop.jpg" class="img desktop">
+								<img src="img/slider-2-mobile.jpg" class="img mobile">
+							</div>
+						</div>
+					</div>
+
+					<div class="abs-bottom">
+						<div class="content-abs">
+							<a href="" class="logo">yuko wedding</a>
+
+							<p>
+								wedding day
+								<b>21 September 2017</b>
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="kita-nganten">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="nganten">
+								<div class="name">
+									<p>
+										<b>Yudiantara</b>
+										mempelai pria
+									</p>
+
+									<div class="photo">
+										<img src="img/gde.jpg">
+									</div>
+								</div>
+								<div class="bio">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt augue sit amet lacus malesuada, vitae lacinia nibh fringilla.
+									</p>
+								</div>
+								<div class="sosmed">
+									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								</div>
+
+								<span class="ix right">
+									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+								</span>
+								<span class="ix bottom">
+									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+								</span>
+							</div>
+
+							<div class="nganten">
+								<div class="name">
+									<p>
+										<b>Oko Partini</b>
+										mempelai wanita
+									</p>
+
+									<div class="photo">
+										<img src="img/oko.jpg">
+									</div>
+								</div>
+								<div class="bio">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt augue sit amet lacus malesuada, vitae lacinia nibh fringilla.
+									</p>
+								</div>
+
+								<div class="sosmed">
+									<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 
@@ -45,59 +133,101 @@
 						
 						<div class="story">
 							<div class="title">
-								<h2>Semua berawal dari sebuah buku</h2>
+								<h2>semua berawal dari sebuah facebook</h2>
 							</div>
 							<div class="row">
-								<div class="content-story">
+								<div class="content-full">
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum lectus a molestie volutpat. Etiam vestibulum ex vel velit feugiat, vel vestibulum sem mollis. Duis erat risus, accumsan sit amet finibus at, dapibus vel justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 									</p>
 								</div>
-								<div class="content-story">
-									<p>
-										Suspendisse vestibulum vitae lorem eget vestibulum. In a massa placerat, gravida lectus non, dignissim nibh. Nullam facilisis dolor ac nunc consectetur interdum. Proin diam quam, convallis vitae erat vitae, aliquet molestie nibh. Suspendisse dolor tellus, accumsan sit amet mauris sed, pulvinar iaculis nunc.
-									</p>
+
+								<div class="image-story">
+									<div class="left-image ratio-img" ratio="533:800">
+										<div class="box-image">
+											<img src="img/image-flower.jpg">	
+										</div>
+										<div class="box-story">
+											<p>
+												sebuah kisah manis berawal dari pekenalan yang manis.
+											</p>
+										</div>
+									</div>
+									<div class="right-image ratio-img" ratio="533:800">
+										<div class="box-image">
+											<img src="img/image-dog.jpg">
+										</div>	
+									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="story-slider">
-							<div class="wrapper-story owl-carousel">
-								<article class="list-story men">
-									<div class="box-story">
-										<p>
-											<b>oktober 1989</b><br />
-											anak laki laki lahir dengan nama I Gde Yudiantara
-										</p>
+					<!-- <div class="title">
+						<p>tentang kami</p>
+					</div> -->
 
-										<div class="box-line">
-											<div class="wrapper-line">
-												<div class="line"></div>
-											</div>
+					<div class="story-slider">	
+						<div class="wrapper-story owl-carousel">
+							<article class="list-story men">
+								<div class="box-story">
+									<p>
+										<b>Oktober 1989</b><br />
+										anak laki laki lahir dengan nama I Gde Yudiantara
+									</p>
+
+									<div class="box-line">
+										<div class="wrapper-line">
+											<div class="line"></div>
 										</div>
 									</div>
-								</article>
+								</div>
+							</article>
 
-								<article class="list-story girl">
-									<div class="box-story">
-										<p>
-											<b>Agustus 1990</b><br />
-											anak perempuan lahir dengan nama Ni Wayan Oko Partini
-										</p>
+							<article class="list-story girl">
+								<div class="box-story">
+									<p>
+										<b>Agustus 1990</b><br />
+										anak perempuan lahir dengan nama Ni Wayan Oko Partini
+									</p>
 
-										<div class="box-line">
-											<div class="wrapper-line">
-												<div class="line"></div>
-											</div>
+									<div class="box-line">
+										<div class="wrapper-line">
+											<div class="line"></div>
 										</div>
-									</div>	
-								</article>
-							</div>
-							<div class="line-story"></div>
+									</div>
+								</div>	
+							</article>
 						</div>
+						<div class="line-story"></div>
 					</div>
+				</section>
+
+				<section class="">
+					
 				</section>
 			</div>
 		</div>
+
+		<script> 
+	  		var heroes = new Swiper('.heroes-slider', {
+    
+	    		// Optional parameters
+	    		direction: 'horizontal',
+	    		loop: true,
+	    		speed: 1000,
+        		spaceBetween: 0,
+        		autoplay: 4000,
+        		effect: 'fade', //'slide', 'fade', 'cube', 'coverflow', 'flip'
+	    
+	    		// If we need pagination
+	    		pagination: '.heroes-paginaion',
+        		paginationClickable: true,
+
+        		// Navigation arrows
+	    		//nextButton: '.swiper-button-next.desktop',
+	    		//prevButton: '.swiper-button-prev.desktop',
+	  		});       
+  		</script>
 	</body>	
 </html>
