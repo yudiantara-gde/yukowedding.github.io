@@ -74,9 +74,6 @@
 								<span class="ix right">
 									<i class="fa fa-plus-circle" aria-hidden="true"></i>
 								</span>
-								<span class="ix bottom">
-									<i class="fa fa-plus-circle" aria-hidden="true"></i>
-								</span>
 							</div>
 
 							<div class="nganten">
@@ -134,15 +131,19 @@
 
 											<ul>
 												<li>
-													<span>prewedding bali klasik</span>
-													mengambil lokasi di museum blanko, Ubud - Bali.
+													<p>
+														<b>prewedding bali klasik</b>
+														mengambil lokasi di museum blanko, Ubud - Bali.
+													</p>
 												</li>
 												<li>
-													<span>prewedding moderen</span>
-													mengambil lokasi di Ubud - Bali.
+													<p>
+														<b>prewedding moderen</b>
+														mengambil lokasi di Ubud - Bali.
+													</p>
 												</li>
 												<li>
-													riasan dan foto prewedding oleh [WHITE BOX].
+													<p>riasan dan busana prewedding oleh [WHITE BOX].</p>
 												</li>
 											</ul>
 										</div>
@@ -163,15 +164,85 @@
 
 											<ul>
 												<li>
-													<span>busana ngidih (lamaran)</span>
-													persiapan mandiri (sendiri dan keluarga)
+													<p>
+														<b>busana ngidih (lamaran)</b>
+														persiapan mandiri (sendiri dan keluarga)
+													</p>
 												</li>
 												<li>
-													<span>cincin</span>
-													di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
+													<p>
+														<b>cincin</b>
+														di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
+													</p>
 												</li>
 												<li>
-													riasan dan foto saat acara ngidih oleh [WHITE BOX].
+													<p>riasan dan foto saat acara ngidih oleh [WHITE BOX].</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="acara-content left-thumb">
+										<div class="photo">
+											<a href="">
+												<img src="img/image-flower.jpg">
+											</a>
+										</div>	
+
+										<div class="desc">
+											<p>
+												<b>nganten</b><br />
+												melakukan melakukan foto sesi dengan bertemakan bali klasik tempo dulu sekitar pertangah tahun 45 dan foto modern bertemakan santai dan fun.
+											</p>
+
+											<ul>
+												<li>
+													<p>
+														<b>prewedding bali klasik</b>
+														mengambil lokasi di museum blanko, Ubud - Bali.
+													</p>
+												</li>
+												<li>
+													<p>
+														<b>prewedding moderen</b>
+														mengambil lokasi di Ubud - Bali.
+													</p>
+												</li>
+												<li>
+													<p>riasan dan busana prewedding oleh [WHITE BOX].</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="acara-content right-thumb">
+										<div class="photo">
+											<a href="">
+												<img src="img/image-flower.jpg">
+											</a>
+										</div>	
+
+										<div class="desc">
+											<p>
+												<b>resepsi (party day)</b><br />
+												acara ngidih dilakukan pada tanggal 15 September 2015.
+											</p>
+
+											<ul>
+												<li>
+													<p>
+														<b>busana ngidih (lamaran)</b>
+														persiapan mandiri (sendiri dan keluarga)
+													</p>
+												</li>
+												<li>
+													<p>
+														<b>cincin</b>
+														di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
+													</p>
+												</li>
+												<li>
+													<p>riasan dan foto saat acara ngidih oleh [WHITE BOX].</p>
 												</li>
 											</ul>
 										</div>

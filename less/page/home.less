@@ -248,14 +248,14 @@
 						top: 50%;
 						.none;
 
-						@media (min-width: @screen-sm-min) {.block;}
+						@media (min-width: @screen-sm-min) {.none;}
 					}
 
 					&.bottom {
 						bottom: -15px;
 						left: 50%;
 						margin-left: -15px; 
-						.block;
+						.none;
 
 						@media (min-width: @screen-sm-min) {.none;}
 					}
@@ -333,7 +333,7 @@
 	}
 	.acara-nganten {
 		.relative;
-		text-indent: 100%;
+		width: 100%;
 		height: auto;
 		margin-top: 15px;
 
@@ -403,6 +403,63 @@
 									.roboto(18px, 700);
 									line-height: 26px;
 									color: #111;
+									text-transform: uppercase;
+								}
+							}
+
+							ul {
+								.relative;
+								width: 100%;
+								height: auto;
+								padding: 0;
+								margin: 0;
+
+								li {
+									.relative;
+									width: 100%;
+									height: auto;
+									margin: 0 0 0px 0;
+									display: list-item;
+									list-style: none;
+									padding: 0 0 0 20px;
+									.clearfix;
+
+									p {
+										.lato(14px, 400);
+										line-height: 20px;
+										letter-spacing: 1px;
+										width: 100%;
+										.relative;
+										height: auto;
+										margin: 0 0 0 0;
+										color: #333333;
+										text-align: left;
+										text-transform: none;
+
+										b {
+											.inline;
+											width: 100%;
+											height: auto;
+											margin: 0 0 0 0;
+											padding: 0 0 0 0;
+											.lato(14px, 700);
+											line-height: 20px;
+											letter-spacing: 1px;
+											color: #111;
+											text-align: left;
+											text-transform: none;
+										}
+									}
+
+									&:before {
+										.absolute;
+										left: 0;
+										top: 5px;
+										width: 10px;
+										height: 10px;
+										.set-border-radius(50%, 50%, 50%, 50%);
+										background-color: #333;
+									}
 								}
 							}
 						}
@@ -776,3 +833,9 @@
 		}
 	}
 }
+
+@media (min-width: @screen-xs-min) {}
+@media (min-width: @screen-ms-min) {}
+@media (min-width: @screen-sm-min) {}
+@media (min-width: @screen-md-min) {}
+@media (min-width: @screen-lg-min) {}

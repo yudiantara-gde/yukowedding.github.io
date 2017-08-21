@@ -78,6 +78,11 @@
 @screen-xs-min:              @screen-xs;
 @screen-phone:               @screen-xs-min;
 
+//extra small screen tablet
+@screen-ms: 				554px;
+@screen-ms-min: 			@screen-ms;
+@screen-midle-tablet:		@screen-ms;
+
 // Small screen / tablet
 @screen-sm:                  768px;
 @screen-sm-min:              @screen-sm;
@@ -105,6 +110,7 @@
 
 // So media queries don't overlap when required, provide a maximum
 @screen-xs-max:              (@screen-sm-min - 1);
+@screen-ms-max:              (@screen-ms-min - 1);
 @screen-sm-max:              (@screen-md-min - 1);
 @screen-md-max:              (@screen-lg-min - 1);
 @screen-xl-max:				 (@screen-xl-min - 1);
@@ -121,6 +127,10 @@
 //== Container sizes
 //
 //## Define the maximum width of `.container` for different screen sizes.
+
+// Middle screen / tablet
+@container-middle-tablet:      (554px + @grid-gutter-width);
+@container-ms:                 @container-middle-tablet;
 
 // Small screen / tablet
 @container-tablet:             (720px + @grid-gutter-width);
