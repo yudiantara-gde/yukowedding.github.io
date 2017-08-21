@@ -107,6 +107,81 @@
 					</div>
 				</section>
 
+				<section class="the-date">
+					<div class="date-nganten">
+						<p>
+							puncak acara kami
+							<b>21 September 2017</b>
+						</p>
+					</div>
+
+					<div class="acara-nganten">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="acara">
+									<div class="acara-content left-thumb">
+										<div class="photo">
+											<a href="">
+												<img src="img/image-flower.jpg">
+											</a>
+										</div>	
+
+										<div class="desc">
+											<p>
+												<b>prewedding</b><br />
+												melakukan melakukan foto sesi dengan bertemakan bali klasik tempo dulu sekitar pertangah tahun 45 dan foto modern bertemakan santai dan fun.
+											</p>
+
+											<ul>
+												<li>
+													<span>prewedding bali klasik</span>
+													mengambil lokasi di museum blanko, Ubud - Bali.
+												</li>
+												<li>
+													<span>prewedding moderen</span>
+													mengambil lokasi di Ubud - Bali.
+												</li>
+												<li>
+													riasan dan foto prewedding oleh [WHITE BOX].
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="acara-content right-thumb">
+										<div class="photo">
+											<a href="">
+												<img src="img/image-flower.jpg">
+											</a>
+										</div>	
+
+										<div class="desc">
+											<p>
+												<b>ngidih (lamaran)</b><br />
+												acara ngidih dilakukan pada tanggal 15 September 2015.
+											</p>
+
+											<ul>
+												<li>
+													<span>busana ngidih (lamaran)</span>
+													persiapan mandiri (sendiri dan keluarga)
+												</li>
+												<li>
+													<span>cincin</span>
+													di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
+												</li>
+												<li>
+													riasan dan foto saat acara ngidih oleh [WHITE BOX].
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</section>
+
 				<section class="our-story">
 
 					<p>

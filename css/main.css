@@ -2648,6 +2648,161 @@ header#header .container-fluid .nav #navPanelToggle:before {
   transform: scale(1.09);
   cursor: pointer;
 }
+.wrapper-body .the-date {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.wrapper-body .the-date .date-nganten {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.wrapper-body .the-date .date-nganten p {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #333;
+  padding: 30px 0 0 0;
+}
+.wrapper-body .the-date .date-nganten p:before,
+.wrapper-body .the-date .date-nganten p:after {
+  content: " ";
+  display: table;
+}
+.wrapper-body .the-date .date-nganten p:after {
+  clear: both;
+}
+.wrapper-body .the-date .date-nganten p:before,
+.wrapper-body .the-date .date-nganten p:after {
+  content: " ";
+  display: table;
+}
+.wrapper-body .the-date .date-nganten p:after {
+  clear: both;
+}
+.wrapper-body .the-date .date-nganten p b {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 38px;
+  color: #111;
+}
+.wrapper-body .the-date .date-nganten p:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: url('../img/floral.png') no-repeat;
+  background-size: 100% 100%;
+  width: 49px;
+  height: 22px;
+  display: block;
+  margin-left: -24.5px;
+}
+.wrapper-body .the-date .acara-nganten {
+  position: relative;
+  text-indent: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:before,
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:after {
+  content: " ";
+  display: table;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:after {
+  clear: both;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:before,
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:after {
+  content: " ";
+  display: table;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara:after {
+  clear: both;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0 15px;
+  position: relative;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .photo a {
+  display: block;
+  width: 280px;
+  height: 280px;
+  color: transparent;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .photo a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .desc {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15px 0 15px 0;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .desc p {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 20px;
+  left: 1px;
+  color: #333;
+  text-transform: none;
+}
+.wrapper-body .the-date .acara-nganten .container-fluid .row .acara .acara-content .desc p b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 26px;
+  color: #111;
+}
 .wrapper-body .our-story {
   position: relative;
   width: 100%;
