@@ -51,7 +51,7 @@
 							<div class="nganten">
 								<div class="name">
 									<p>
-										<b>Yudiantara</b>
+										<b>Yudiantara</b><br />
 										mempelai pria
 									</p>
 
@@ -72,14 +72,18 @@
 								</div>
 
 								<span class="ix right">
-									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+									<i class="fa fa-heart" aria-hidden="true"></i>
+								</span>
+
+								<span class="ix bottom">
+									<i class="fa fa-heart" aria-hidden="true"></i>
 								</span>
 							</div>
 
 							<div class="nganten">
 								<div class="name">
 									<p>
-										<b>Oko Partini</b>
+										<b>Oko Partini</b><br />
 										mempelai wanita
 									</p>
 
@@ -107,7 +111,7 @@
 				<section class="the-date">
 					<div class="date-nganten">
 						<p>
-							puncak acara kami
+							puncak acara kami <br />
 							<b>21 September 2017</b>
 						</p>
 					</div>
@@ -118,7 +122,7 @@
 								<div class="acara">
 									<div class="acara-content left-thumb">
 										<div class="photo">
-											<a href="">
+											<a href="" class="ratio-img" ratio="250:200">
 												<img src="img/image-flower.jpg">
 											</a>
 										</div>	
@@ -126,32 +130,19 @@
 										<div class="desc">
 											<p>
 												<b>prewedding</b><br />
-												melakukan melakukan foto sesi dengan bertemakan bali klasik tempo dulu sekitar pertangah tahun 45 dan foto modern bertemakan santai dan fun.
-											</p>
+												dengan bertemakan bali klasik kami memutuskan untuk mengambil lokasi di daerah ubud lebih tepatnya di museum blanco ubud pada Sabtu, 22 Juli 2017.
 
-											<ul>
-												<li>
-													<p>
-														<b>prewedding bali klasik</b>
-														mengambil lokasi di museum blanko, Ubud - Bali.
-													</p>
-												</li>
-												<li>
-													<p>
-														<b>prewedding moderen</b>
-														mengambil lokasi di Ubud - Bali.
-													</p>
-												</li>
-												<li>
-													<p>riasan dan busana prewedding oleh [WHITE BOX].</p>
-												</li>
-											</ul>
+												<br /><br />
+												<a href="">
+													lihat galeri
+												</a>
+											</p>											
 										</div>
 									</div>
 
 									<div class="acara-content right-thumb">
 										<div class="photo">
-											<a href="">
+											<a href="" class="ratio-img" ratio="250:200">
 												<img src="img/image-flower.jpg">
 											</a>
 										</div>	
@@ -159,65 +150,34 @@
 										<div class="desc">
 											<p>
 												<b>ngidih (lamaran)</b><br />
-												acara ngidih dilakukan pada tanggal 15 September 2015.
-											</p>
+												ngidih atau dalam bahasa indonesia dikenal dengan istilah lamaran / tukar cincin, acara ngidih diadakan pada Jumat, 15 September 2017 yang dihadiri oleh keluarga besar dari kedua belah pihak.
 
-											<ul>
-												<li>
-													<p>
-														<b>busana ngidih (lamaran)</b>
-														persiapan mandiri (sendiri dan keluarga)
-													</p>
-												</li>
-												<li>
-													<p>
-														<b>cincin</b>
-														di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
-													</p>
-												</li>
-												<li>
-													<p>riasan dan foto saat acara ngidih oleh [WHITE BOX].</p>
-												</li>
-											</ul>
+												<br /><br />
+												<a href="">lihat galeri</a>
+											</p>
 										</div>
 									</div>
 
 									<div class="acara-content left-thumb">
 										<div class="photo">
-											<a href="">
+											<a href="" class="ratio-img" ratio="250:200">
 												<img src="img/image-flower.jpg">
 											</a>
 										</div>	
 
 										<div class="desc">
 											<p>
-												<b>nganten</b><br />
-												melakukan melakukan foto sesi dengan bertemakan bali klasik tempo dulu sekitar pertangah tahun 45 dan foto modern bertemakan santai dan fun.
+												<b>nganten (acara puncak)</b><br />
+												setelah melewati acara lamaran, acara selanjutnya iyalah nganten, dimana acara nganten diadakan pada Kamis, 21 September 2017. Acara nganten ditujukan sah secara hukum dan niskala.
+												<br /><br />
+												<a href="">lihat galeri</a>
 											</p>
-
-											<ul>
-												<li>
-													<p>
-														<b>prewedding bali klasik</b>
-														mengambil lokasi di museum blanko, Ubud - Bali.
-													</p>
-												</li>
-												<li>
-													<p>
-														<b>prewedding moderen</b>
-														mengambil lokasi di Ubud - Bali.
-													</p>
-												</li>
-												<li>
-													<p>riasan dan busana prewedding oleh [WHITE BOX].</p>
-												</li>
-											</ul>
 										</div>
 									</div>
 
 									<div class="acara-content right-thumb">
 										<div class="photo">
-											<a href="">
+											<a href="" class="ratio-img" ratio="250:200">
 												<img src="img/image-flower.jpg">
 											</a>
 										</div>	
@@ -225,26 +185,15 @@
 										<div class="desc">
 											<p>
 												<b>resepsi (party day)</b><br />
-												acara ngidih dilakukan pada tanggal 15 September 2015.
-											</p>
+												serangkain acara puncak, dimana acara resepsi di adakan pada Jumat, 22 September 2017, untuk itu kami sangat mengharapan kehadiran dari teman teman dan saudara untuk ikut memeriahkan acara kami
 
-											<ul>
-												<li>
-													<p>
-														<b>busana ngidih (lamaran)</b>
-														persiapan mandiri (sendiri dan keluarga)
-													</p>
-												</li>
-												<li>
-													<p>
-														<b>cincin</b>
-														di buat dan persiapan dengan sebaik baiknya oleh SEKAR EMAS COLECTION. 
-													</p>
-												</li>
-												<li>
-													<p>riasan dan foto saat acara ngidih oleh [WHITE BOX].</p>
-												</li>
-											</ul>
+												<br /><br />
+												<a href="">
+													lihat peta tempat acara
+												</a>
+												<br />
+												<a href="">lihat aturan busana</a>
+											</p>
 										</div>
 									</div>
 								</div>
@@ -253,29 +202,38 @@
 					</div>
 				</section>
 
-				<section class="our-story">
+				<section class="resepsi">
+					<div class="bg-black">
+						<div class="container-fluid">
+							<p>
+								Jangan lupa datang dan meriahkan acara kami <br />
+								<b>22 September 2017</b> <br />
+								<b class="small">Br. Ulundesa, Desa Braban Tanah Lot</b><br />
+								<b>Kediri Tabanan - Bali</b>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="maps">
+					<div class="container-fluid">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493.12451124810957!2d115.10766649752465!3d-8.596372364608872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd239e83b47b669%3A0x9312878460bbe269!2sBALE+BANJAR+ULUNDESA!5e0!3m2!1sen!2sid!4v1503387438869" frameborder="0" style="border:0" allowfullscreen></iframe>						
+					</div>
+				</section>
 
+				<section class="our-story">
 					<p>
 						cerita kita
 					</p>
-					<div class="mobile-image">
+					<div class="top-image">
 						<div class="container-fluid">
 							<div class="row">
 								<div class="box-image">
-									<img src="img/sample-mobile.jpg">
-								</div>
-								<div class="box-image">
-									<img src="img/sample-mobile.jpg">
+									<img src="img/img-smile.jpg">
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="container-fluid">
-						<div class="desktop-image">
-							<div class="row">
-								
-							</div>
-						</div>
 						
 						<div class="story">
 							<div class="title">
@@ -295,7 +253,7 @@
 										</div>
 										<div class="box-story">
 											<p>
-												sebuah kisah manis berawal dari pekenalan yang manis.
+												"sebuah kisah manis berawal dari pekenalan yang manis."
 											</p>
 										</div>
 									</div>
@@ -349,8 +307,18 @@
 					</div>
 				</section>
 
-				<section class="">
-					
+				<section class="instagram">					
+					<div class="container-fluid">
+						<div class="title">
+							<p>
+								berbagi momen dengan kami di <br />
+								<a href="">instagram</a> <b>gunakan hastag</b><br />
+								<a href="">#yukowedding2017</a>
+							</p>
+						</div>
+
+						<i class="instagram-profile"></i>
+					</div>
 				</section>
 			</div>
 		</div>
